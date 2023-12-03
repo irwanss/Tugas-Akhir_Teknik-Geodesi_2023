@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login-box{
+  width: 500px;
+  height: 300px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.form-daftar{
+  width: 70vw;
+}
+
+body{
+  background-image: url(../images/bgweb.png);
+}
+
+.container mt-2 {
+    box-sizing: border-box;
+}
+
+.bg-dark {
+    background: linear-gradient(to right,#5fe2fa,#77d0ff) ;
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+  color: #20a464!important;
+}
+
+.dropdown-toggle{
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-nav .nav-itemm a {
+    color: #fff; 
+    transition: color 0.3s; 
+  }
+  
+  .navbar-nav .nav-itemm a:hover {
+    color: #128b50; 
+  }
+
+  .banner{
+    height: 35vh;
+    background-image: url(../images/banner.jpg);
+    background-color: linear-gradient(red, green);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .list-group a{
+    text-decoration: none;
+  }
+
+  .list-group a li:hover{
+    color: #128b50;
+    font-style: italic;
+  }
+
+  .image-box{
+    height: 25em;
+  }
+
+  .btn-ijo{
+    background-color: transparent;
+    color: #128b50;
+    border: solid 1px #128b50;
+  }
+
+  .btn-ijo:hover{
+    background-color: #128b50;
+    color: white;
+    border: solid 1px #128b50;
+  }
+
+  .harga{
+    color: #128b50;
+  }
+
+  .warna-bg{
+    background-color: #0e7041!important;
+  }
+
+  .objectfit-img{
+    height: 100%;
+    width: 100%;
+    object-fit: center;
+    object-position: center;
+  }
+
+  .footer{
+    height: 7vh;
+    background-color: #1AFF90;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5vh;
+  }
+
+  .tubuh{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  /* halaman tentang */
+  .isi{
+    padding: 3vh;
+    text-align: center;
+    width: 80vw;
+    background-color: #ffffffa2;
+    border-radius: 100px;
+  }
+
+.isi .paragraf{
+    text-align: justify;
+}
+
+.isi .paragraf ul{
+  text-decoration: none;
+  list-style: none;
+}
+/* halaman toko */
+.imghe{
+  height: 13rem;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+}
+
+.gambar{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .imghe{
+    height: 13rem;
+  }
+}
+
+
+
+/* produk-detail */
+.imgpr{
+  height: 25em;
+}
+
+.imgpt{
+  height: 17em;
+}
+
+@media only screen and (max-width: 768px) {
+  .imgpr{
+    height: 13em;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .imgpr{
+    height: 18em;
+  }
+}
+
+.telusuri{
+  background-color: #1AFF90;
+  color: #064325;
+}
+
+.telusuri:hover{
+  background-color: #128b50!important;
+  color: #fff!important;
+}
+
+/* warna */
+
+.clr-1{
+  background-color: #137d4a;
+}

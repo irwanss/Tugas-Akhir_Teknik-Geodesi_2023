@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login-box{
+border-radius: 10px;
+background-color: #fff;
+}
+
+.bungkus {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.ajust {
+  flex: 1;
+  height: 100%;
+}
+
+
+body{
+background-image: url(../images/bgweb.png);
+}
+
+.container mt-2 {
+  box-sizing: border-box;
+}
+
+.bg-dark {
+  background: linear-gradient(to right,#5fe2fa,#77d0ff) ;
+}
+.navbar .navbar-nav .nav-link{
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-nav .nav-itemm a {
+  color: #fff; 
+  transition: color 0.3s; 
+}
+
+.navbar-nav .nav-itemm a:hover{
+  color: #128b50!important; 
+  font-style: italic;
+}
+
+.banner{
+  height: 35vh;
+  background-image: url(../images/banner.jpg);
+  background-color: linear-gradient(red, green);
+  background-size: cover;
+  background-position: center;
+}
+
+.list-group a{
+  text-decoration: none;
+}
+
+.list-group a li:hover{
+  color: #128b50!important;
+  font-style: italic;
+}
+
+.image-box{
+  height: 25em;
+}
+
+.btn-ijo{
+  background-color: transparent;
+  color: #128b50;
+  border: solid 1px #128b50;
+}
+
+.btn-ijo:hover{
+  background-color: #128b50;
+  color: white;
+  border: solid 1px #128b50;
+}
+
+.harga{
+  color: #128b50;
+}
+
+.warna-bg{
+  background-color: #0e7041!important;
+}
+
+.bg-putih{
+  background-color: #fff;
+}
+
+.objectfit-img{
+  height: 100%;
+  width: 100%;
+  object-fit: center;
+  object-position: center;
+}
+
+.footer{
+  height: 7vh;
+  background-color: #1AFF90;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 5vh;
+}
+
+.no-decoration{
+  text-decoration: none!important;
+}
+
+.tubuh{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* halaman index */
+.badan{
+    padding: 3vh;
+    background-color: #ffffffa2;
+    border-radius: 100px;
+}
+
+.badan h2{
+  text-align: center;
+}
+
+/* halaman tentang */
+.isi{
+  padding: 3vh;
+  text-align: center;
+  width: 80vw;
+  background-color: #ffffffa2;
+  border-radius: 100px;
+}
+
+.isi .paragraf{
+  text-align: justify;
+}
+
+/* halaman daftar */
+.ajust{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  flex: 1;
+  background-color: #ffffffd9;
+}
+
+.kotak{
+  width: 23em;
+}
+
+.no-border-table td, .no-border-table th {
+  border: none !important;
+}

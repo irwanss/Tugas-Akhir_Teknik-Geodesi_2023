@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face {
+    font-family: DynaPuff;
+    src: url(../fontawsome/DynaPuff-VariableFont_wdth\,wght.ttf);
+  }
+/* navbar */
+.bg-dark {
+    background: linear-gradient(to right,#5fe2fa,#77d0ff)!important ;
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-nav .nav-itemm a, .navbar .navbar-nav .nav-link {
+    color: #4291da!important; 
+    transition: color 0.3s; 
+  }
+  
+  .navbar-nav .nav-itemm a:hover {
+    color: rgb(8, 51, 68)!important; 
+    font-style: italic;
+  }
+  
+
+
+/* koding lama */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    background-size: cover !important;
+    background-color: white !important;
+    background: url(../images/bg\ irwan.png) no-repeat !important;
+    background-size: cover !important;
+    /* min-height: 93vh;
+    overflow: hidden; */
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9vh;
+    
+}
+
+.kanan{
+    padding-bottom: 23vh;
+    font-family: DynaPuff;
+}
+
+.kotak img {
+    height: 70vh;
+    top: 20vh;
+    
+}
+
+.kanan h1 {
+    font-size: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #128b50;
+    padding-right: 1em;
+    font-family: DynaPuff;
+}
+
+.kanan h1 .temukan {
+    color: white;
+    font-size: 0.9em;
+    font-family: DynaPuff;
+}
+
+.kanan .ganti:before {
+    content: '';
+    animation: gerak infinite 4s;
+    color: white;
+    background-color: white;
+}
+
+.ganti{
+    font-family: DynaPuff;
+}
+
+@keyframes gerak {
+    0% {
+        content: 'Alat Tani';
+        background-color: rgb(61, 216, 138);
+    }
+
+    25% {
+        content: 'Bibit';
+        background-color: rgb(30, 187, 30);
+    }
+
+    50% {
+        content: 'Pupuk';
+        background-color: rgb(45, 193, 45);
+    }
+
+    75% {
+        content: 'Obat';
+        background-color: rgb(61, 216, 138);
+    }
+    
+    100% {
+        content: 'Alat Tani';
+        background-color: rgb(61, 216, 138);
+    }
+}
+
+.gerak {
+    animation: gerak 4s linear infinite;
+}
+
+
+
+.tombol {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3vw;
+    gap: 6vw;
+    text-align: center;
+    align-self: flex-end;
+    position: absolute;
+    width: 90%;
+}
+
+
+
+.tombol a img {
+    padding: 1vw;
+    height: 6vw;
+    min-height: 70px;
+    background-color: #128b50;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.tombol figcaption {
+    font-style: Josefin Sans;
+    color: #128b50;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 1vh;
+}
+
+.tombol a {
+    text-decoration: none;
+}
+
+.tombol a figcaption:hover {
+    background-color: #128b50;
+}
+
+.tombol div:hover img {
+    background-color: white;
+    height: 8vh;
+}
+
+.tombol div:hover figcaption {
+    background-color: #128b50;
+    color: white;
+    font-size: 1.2em;
+}
+
+.footer {
+    background-color: #1AFF90;
+    color: #fff;
+    width: 100%;
+    height: 7vh;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid black;
+    
+}
+
+.footer p {
+    text-align: right;
+    padding-top: 2vh;
+    padding-right: 2vw;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer p::after {
+    content: " |Tugas Akhir Departemen Teknik Geodesi |Universitas Diponegoro";
+}
+
+/* halaman peta */
+
+.isi {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    flex-wrap: wrap;
+}
+
+.peta {
+    height: 38vw;
+    width: 60vw;
+    min-width: 289px;
+    border: 1px solid black;
+}
+
+.keterangan {
+    height: 38vw;
+    width: 30vw;
+    min-width: 289px;
+    border: 1px solid black;
+}
+
+
+/* halaman tentang */
+
+.content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.about {
+    width: 90vw;
+    background: rgba(245, 245, 245, 0.7);
+    border-radius: 75px;
+    
+}
+
+.content .about h2 {
+    text-align: center;
+    padding: 30px 0px 10px;
+}
+
+.content p {
+    text-align: justify;
+    padding: 0px 30px 30px;
+}
+
+.footer{
+    height: 7vh;
+    background-color: #1AFF90;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5vh;
+  }
+
+  .tubuh{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* buat banner */
+
+@media only screen and (max-width: 768px) {
+
+    .header {
+        flex-wrap: wrap;
+        background-color: transparent;
+    }
+
+    .header ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu-icon {
+        display: flex;
+        font-size: 4vh;
+    }
+
+    .header ul.hidden {
+        display: none;
+    }
+
+    .kotak {
+        margin-top: 12vh;
+    }
+
+    main{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+       }
+
+    .tombol{
+        display: flex;
+        position: relative;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .kotak img {
+        display: none;
+        
+    }
+
+    .kotak h1 {
+        font-size: 3vw;
+        color: #128b50;
+        font-family: Fjalla One;
+        padding-left: 5%;
+        margin-left: -5vw;
+    }
+
+    .kotak img {
+        margin-right: -5vw;
+    }
+
+
+    .kotak h1 .temukan {
+        font-size: 0.6em;
+        padding: 0;
+    }
+
+    .kotak .ganti {
+        font-size: 1em;
+    }
+
+    .kanan{
+        padding-bottom: 7vh;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .kanan h1{
+        padding: 0;
+    }
+}
+
+
