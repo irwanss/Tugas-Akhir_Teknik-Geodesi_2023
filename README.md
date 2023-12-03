@@ -8,7 +8,6 @@ fitur
 <li>CRUD system database</li>
 <li>Sistem login</li>
 </ul>
-<br>
 Dirancang dengan:
 <ul>
 <li>leaflet</li>
@@ -17,7 +16,6 @@ Dirancang dengan:
 <li>bootstrap 5</li>
 <li>javascript</li>
 </ul>
-<br>
 import data ke localhost:
 <ul>
 <li>download code</li>
