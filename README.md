@@ -1,13 +1,15 @@
 # Tugas-Akhir_Teknik-Geodesi_2023
 Prototype webgis persebaran fasilitas pertanian
 fitur
-- menampilkan peta
-- menampilkan produk dengan jarak dan filter
-- filter berdasarkan kategori dan keyword
-- CRUD system database
-- sistem login
+<ul>
+<li>- menampilkan peta</li>
+<li>- menampilkan produk dengan jarak dan filter</li>
+<li>- filter berdasarkan kategori dan keyword</li>
+<li>- CRUD system database</li>
+<li>- sistem login</li>
+</ul>
 <br>
-dirancang dengan
+Dirancang dengan:
 - leaflet
 - jquery
 - php
